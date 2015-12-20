@@ -1,0 +1,197 @@
+<!doctype html>
+<!-- The Time Machine GitHub pages theme was designed and developed by Jon Rohan, on Feb 7, 2012. -->
+<!-- Follow him for fun. http://twitter.com/jonrohan. Tail his code on https://github.com/jonrohan -->
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <link rel="stylesheet" href="stylesheets/stylesheet.css" media="screen">
+  <link rel="stylesheet" href="stylesheets/github-dark.css">
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script type="text/javascript" src="javascripts/script.js"></script>
+
+  <title>Code</title>
+  <meta name="description" content="Code for the book &quot;Mastering OpenCV with Practical Computer Vision Projects&quot; by Packt Publishing 2012.">
+
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+</head>
+
+<body>
+
+  <div class="wrapper">
+    <header>
+      <h1 class="title">Code</h1>
+    </header>
+    <div id="container">
+      <p class="tagline">Code for the book &quot;Mastering OpenCV with Practical Computer Vision Projects&quot; by Packt Publishing 2012.</p>
+      <div id="main" role="main">
+        <div class="download-bar">
+        <div class="inner">
+          <a href="https://github.com/lhnows/code/tarball/master" class="download-button tar"><span>Download</span></a>
+          <a href="https://github.com/lhnows/code/zipball/master" class="download-button zip"><span>Download</span></a>
+          <a href="https://github.com/lhnows/code" class="code">View Code on GitHub</a>
+        </div>
+        <span class="blc"></span><span class="trc"></span>
+        </div>
+        <article class="markdown-body">
+          <h1></h1>
+
+<h1>
+<a id="mastering-opencv-with-practical-computer-vision-projects" class="anchor" href="#mastering-opencv-with-practical-computer-vision-projects" aria-hidden="true"><span class="octicon octicon-link"></span></a>Mastering OpenCV with Practical Computer Vision Projects</h1>
+
+<h2>
+<a id="full-source-code-for-the-book" class="anchor" href="#full-source-code-for-the-book" aria-hidden="true"><span class="octicon octicon-link"></span></a>Full source-code for the book.</h2>
+
+<pre><code>Source-Code:    https://github.com/MasteringOpenCV/code
+Book:           http://www.packtpub.com/cool-projects-with-opencv/book
+Copyright:      Packt Publishing 2012.
+</code></pre>
+
+<hr>
+
+<h2>
+<a id="to-build--run-the-projects-for-the-book" class="anchor" href="#to-build--run-the-projects-for-the-book" aria-hidden="true"><span class="octicon octicon-link"></span></a>To build &amp; run the projects for the book:</h2>
+
+<ul>
+<li><p>Install OpenCV v2.4.2 or later. eg: go to "<a href="http://opencv.org/">http://opencv.org/</a>", click on
+Downloads, download the latest OpenCV (including prebuilt library), and extract
+it to "C:\OpenCV" for Windows or "~/OpenCV" for Linux. In OpenCV v2.4.3, the
+prebuilt OpenCV library is in "C:\OpenCV\build" or "~/OpenCV/build", such as
+"C:\OpenCV\build\x64\vc9" for MS Visual Studio 2008 (or "vs10" folder for MS 
+Visual Studio 2010, or the "x86" parent folder for 32-bit Windows).</p></li>
+<li><p>Install all the source code of the book. eg: extract the code to
+"C:\MasteringOpenCV" for Windows or "~/MasteringOpenCV" for Linux.</p></li>
+<li><p>Install CMake v2.8 or later from "<a href="http://www.cmake.org/">http://www.cmake.org/</a>".</p></li>
+</ul>
+
+<p>Each chapter of the book is for a separate project. Therefore there are 9
+projects for the 9 chapters (remember that Chapter 9 is an online chapter that
+can be downloaded from "<a href="http://www.packtpub.com/cool-projects-with-opencv/book">http://www.packtpub.com/cool-projects-with-opencv/book</a>").
+You can run each project separately, they each contain a README.md text file
+describing how to build that project, using CMake in most cases, because CMake
+can be used with many compilers and many operating systems.</p>
+
+<hr>
+
+<h2>
+<a id="chapters" class="anchor" href="#chapters" aria-hidden="true"><span class="octicon octicon-link"></span></a>Chapters:</h2>
+
+<ul>
+<li>Ch1) Cartoonifier and Skin Changer for Android, by Shervin Emami.</li>
+<li>Ch2) Marker-based Augmented Reality on iPhone or iPad, by Khvedchenia Ievgen.</li>
+<li>Ch3) Marker-less Augmented Reality, by Khvedchenia Ievgen.</li>
+<li>Ch4) Exploring Structure from Motion using OpenCV, by Roy Shilkrot.</li>
+<li>Ch5) Number Plate Recognition using SVM and Neural Networks, by David Escrivá.</li>
+<li>Ch6) Non-rigid Face Tracking, by Jason Saragih.</li>
+<li>Ch7) 3D Head Pose Estimation using AAM and POSIT, by Daniel Lélis Baggio.</li>
+<li>Ch8) Face Recognition using Eigenfaces or Fisherfaces, by Shervin Emami.</li>
+<li>Ch9) Developing Fluid Wall using the Microsoft Kinect, by Naureen Mahmood.</li>
+</ul>
+
+<hr>
+
+<h2>
+<a id="what-you-need-for-this-book" class="anchor" href="#what-you-need-for-this-book" aria-hidden="true"><span class="octicon octicon-link"></span></a>What you need for this book:</h2>
+
+<p>You don't need to have special knowledge in computer vision to read this book,
+but you should have good C/C++ programming skills and basic experience with
+OpenCV before reading this book. Readers without experience in OpenCV may wish to
+read the book Learning OpenCV for an introduction to the OpenCV features, or read
+"OpenCV 2 Cookbook" for examples on how to use OpenCV with recommended C/C++
+patterns, because "Mastering OpenCV with Practical Computer Vision Projects" will
+show you how to solve real problems, assuming you are already familiar with the
+basics of OpenCV and C/C++ development.</p>
+
+<p>In addition to C/C++ and OpenCV experience, you will also need a computer, and an
+IDE of your choice (such as Visual Studio, XCode, Eclipse, or QtCreator, running
+on Windows, Mac or Linux). Some chapters have further requirements, particularly:</p>
+
+<ul>
+<li>To develop the Android app, you will need an Android device, Android
+development tools, and basic Android development experience.</li>
+<li>To develop the iOS app, you will need an iPhone, iPad, or iPod Touch device,
+iOS development tools (including an Apple computer, XCode IDE, and an Apple
+Developer Certificate), and basic iOS and Objective-C development experience.</li>
+<li>Several desktop projects require a webcam connected to your computer. Any
+common USB webcam should suffice, but a webcam of at least 1 megapixel may be
+desirable.</li>
+<li>CMake is used in most projects, including OpenCV itself, to build across
+operating systems and compilers. A basic understanding of build systems is
+required, and knowledge of cross-platform building is recommended.</li>
+<li>An understanding of linear algebra is expected, such as basic vector and matrix
+operations and eigen decomposition.</li>
+</ul>
+
+<p>Per-chapter Requirements:</p>
+
+<ul>
+<li>Ch1: webcam (for desktop app), or Android development system (for Android app).</li>
+<li>Ch2: iOS development system (to build an iOS app).</li>
+<li>Ch3: OpenGL built into OpenCV.</li>
+<li>Ch4: PCL (<a href="http://pointclouds.org/">http://pointclouds.org/</a>) and SSBA (<a href="http://www.inf.ethz.ch/personal/chzach/opensource.html">http://www.inf.ethz.ch/personal/chzach/opensource.html</a>).</li>
+<li>Ch5: nothing.</li>
+<li>Ch6: nothing, but requires training data for execution.</li>
+<li>Ch7: nothing.</li>
+<li>Ch8: webcam.</li>
+<li>Ch9: Kinect depth sensor.</li>
+</ul>
+
+<hr>
+
+<h2>
+<a id="screenshots" class="anchor" href="#screenshots" aria-hidden="true"><span class="octicon octicon-link"></span></a>Screenshots:</h2>
+
+<ul>
+<li>Ch1) Cartoonifier and Skin Changer for Android:
+<img src="https://raw.github.com/MasteringOpenCV/code/master/Chapter1_AndroidCartoonifier/screenshot.png" alt="Ch1) Cartoonifier and Skin Changer for Android">
+</li>
+<li>Ch2) Marker-based Augmented Reality on iPhone or iPad:
+<img src="https://raw.github.com/MasteringOpenCV/code/master/Chapter2_iPhoneAR/screenshot.png" alt="Ch2) Marker-based Augmented Reality on iPhone or iPad">
+</li>
+<li>Ch3) Marker-less Augmented Reality:
+<img src="https://raw.github.com/MasteringOpenCV/code/master/Chapter3_MarkerlessAR/screenshot.png" alt="Ch3) Marker-less Augmented Reality">
+</li>
+<li>Ch4) Exploring Structure from Motion using OpenCV:
+<img src="https://raw.github.com/MasteringOpenCV/code/master/Chapter4_StructureFromMotion/screenshot.png" alt="Ch4) Exploring Structure from Motion using OpenCV">
+</li>
+<li>Ch5) Number Plate Recognition using SVM and Neural Networks:
+<img src="https://raw.github.com/MasteringOpenCV/code/master/Chapter5_NumberPlateRecognition/screenshot.png" alt="Ch5) Number Plate Recognition using SVM and Neural Networks">
+</li>
+<li>Ch6) Non-rigid Face Tracking:
+<img src="https://raw.github.com/MasteringOpenCV/code/master/Chapter6_NonRigidFaceTracking/screenshot.png" alt="Ch6) Non-rigid Face Tracking">
+</li>
+<li>Ch7) 3D Head Pose Estimation using AAM and POSIT:
+<img src="https://raw.github.com/MasteringOpenCV/code/master/Chapter7_HeadPoseEstimation/screenshot.png" alt="Ch7) 3D Head Pose Estimation using AAM and POSIT">
+</li>
+<li>Ch8) Face Recognition using Eigenfaces or Fisherfaces:
+<img src="https://raw.github.com/MasteringOpenCV/code/master/Chapter8_FaceRecognition/screenshot.png" alt="Ch8) Face Recognition using Eigenfaces or Fisherfaces">
+</li>
+<li>Ch9) Developing Fluid Wall using the Microsoft Kinect:
+<img src="https://raw.github.com/MasteringOpenCV/code/master/Chapter9_FluidInteractionUsingKinect/screenshot.png" alt="Ch9) Developing Fluid Wall using the Microsoft Kinect">
+</li>
+</ul>
+        </article>
+      </div>
+    </div>
+    <footer>
+      <div class="owner">
+      <p><a href="https://github.com/lhnows" class="avatar"><img src="https://avatars3.githubusercontent.com/u/6111793?v=3&amp;s=60" width="48" height="48"></a> <a href="https://github.com/lhnows">lhnows</a> maintains <a href="https://github.com/lhnows/code">Code</a></p>
+
+
+      </div>
+      <div class="creds">
+        <small>This page generated using <a href="https://pages.github.com/">GitHub Pages</a><br>theme by <a href="https://twitter.com/jonrohan/">Jon Rohan</a></small>
+      </div>
+    </footer>
+  </div>
+  <div class="current-section">
+    <a href="#top">Scroll to top</a>
+    <a href="https://github.com/lhnows/code/tarball/master" class="tar">tar</a><a href="https://github.com/lhnows/code/zipball/master" class="zip">zip</a><a href="" class="code">source code</a>
+    <p class="name"></p>
+  </div>
+
+  
+</body>
+</html>
